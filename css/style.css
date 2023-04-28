@@ -41,12 +41,57 @@ q::before, q::after {
 	content: none;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 /* Do not write a css rule above here! Use the space below  */
 
 
 /* Write your css below here */
+.img {
+    display: block;
+    margin: 20px auto;
+}
+
+table {
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+p {
+    padding: 10px;
+}
+
+p a img {
+    height: 20px;
+    width: 20px;
+}
+
+video {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
